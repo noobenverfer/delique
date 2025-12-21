@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "busctl disabled"
+exit 1

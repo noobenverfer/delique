@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "hostnamectl disabled; edit /etc/hostname manually"
+exit 1

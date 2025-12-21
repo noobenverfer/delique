@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "machinectl disabled"
+exit 1

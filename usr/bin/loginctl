@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "loginctl disabled; use other utility"
+exit 1
