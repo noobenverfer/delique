@@ -24,7 +24,7 @@ The deviations from the Linux From Scratch books so far include:
   
   - In _/etc/resolv.conf_, the Cloudflare, Google, and Quad9 nameservers are configured for IPv4 as well IPv6 by default.
   
-  - The contents of /lib64 are actually symbolic links to the /lib folder circa Chapter 7 of the Linux From Scratch book; this may be a part of our problems, howver this has actually been found _necessary_ to exist despite the directives of the Linux From Scratch books to always ensure /lib64 does not exist. In particular, _ld-linux-x86-64.so.2_, _ld-lsb-x86-64.so.3_, and _ld-lsb.so.3_ need to be symlinked here from /lib or many programs will refuse to compile at all.
+  - The contents of /lib64 are actually symbolic links to the /lib folder which were created around Chapter 7 in the procedures from the Linux From Scratch book; this may be a part of our problems, however this has actually been found _necessary_ to exist despite the directives of the Linux From Scratch books to always ensure /lib64 does not exist. In particular, _ld-linux-x86-64.so.2_, _ld-lsb-x86-64.so.3_, and _ld-lsb.so.3_ need to be symlinked here from /lib or many programs will refuse to compile and run at all.
 
   - GRUB-Legacy 0.97 (along with several community patches for it) is included with the source code alongside the modern version of GRUB 2. While GRUB 2 is installed with the Delique operating system as of now, it is untested, and will be replaced with GRUB-Legacy 0.97 as soon as possible. 
 
