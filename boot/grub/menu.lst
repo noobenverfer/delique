@@ -1,0 +1,3 @@
+title Delique GNU/Linux
+root (hd0,2)
+kernel /vmlinuz-6.16.1-lfs-12.4-systemd root=/dev/sda2
