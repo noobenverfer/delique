@@ -3,7 +3,7 @@ A free and open-source GNU/Linux distribution derived from the procedures in the
 
 Delique is in rather early stages of development, and must be regarded as experimental until further notice. Do not expect much of a complete operating system over the next few months. Additionally, Delique is not only a product of the Linux From Scratch book and has already begun to deviate from its procedures where necessary. 
 
-As a conservative estimate, the Delique operating system should be in a state where it is fully functional and integrated with the NsCDE desktop environment by at least early 2026.
+As a conservative estimate, the Delique operating system should be in a state where it is fully functional and integrated with the NsCDE desktop environment by January 2026.
 
 You are now aware of the state of the Delique operating system.
 
