@@ -11,13 +11,17 @@ Datapool Surface
 ---
 The Delique operating system is a part of the Delique project as a whole, which is an initiative to design and manufacture a complete set of computer hardware and software based solely on the unique design principles of efficiency, valuable features, and free and open-source software. The Delique project, as it were, is an ELORG-associated project and is otherwise known by its full name, ELORG-Associated Project Codename "Delique"; for more information about ELORG and what this means, you can visit the [official webpage for the Delique project](https://elektronorgtechnica.ct.ws/Project%20Codename%20'Delique'.html) on ELORG's website.
 
+The directory structure of this repository represents that of the directory structure in the Delique operating system itself, with directories and the files in them created only to reflect changes that deviate from the procedures in Linux From Scratch books that the Delique operating system is derived from and cannot be obtained from said procedures. It should also be noted it was not possible to mirror the entirety of the source code, but resources necessary to download and obtain it are provided in the _/sources_ directory. 
+
+The complete Delique operating system is released in archive files and released here tagged as "archives". These archives should be entirely reproducible in almost exactness by following the procedures in the Linux From Scratch books to build the sources and deviating when instructed for the sake of Delique. Usually, it should be possible to install and setup Delique manually from these archives in order to use it.
+
 Build and Install
 ---
 Before proceeding, you should obtain the Linux From Scratch books (in particular, the LFS systemd and BLFS systemd books which this is based off of) and familiarize yourself with them. They are available at _www.linuxfromscratch.org_ and are completely free and open-source. Much credit goes to these books from which the Delique operating system shall be derived from.
 
 The source code is freely available under their respective licenses, and can be built and installed by two means: by downloading the archive of the Delique operating system itself, which at this time still contains the source code in the _/sources_ directory and/or the _/usr/src_ directory and can be built by following the procedures from the corresponding Linux From Scratch books and deviating where instructed (optimal if you only want to build and install a specific program here), _**or**_ download the source code using wget and the /sources/wget-list-systemd file from this repository and build it with the procedures from the corresponding Linux From Scratch books and deviating where instructed (optimal if you want to build the entire Delique operating system from scratch... _but at this point, do you? Ha ha..._). 
 
-There is no installer or bootable .ISO file provided yet, and if you _really_ wish to boot Delique and use it you will have to install and setup the Delique operating system manually; the instructions to do this are provided with each release. This will not be the case in the near future.
+There is no installer or bootable .ISO file provided yet, and if you _really_ wish to install Delique and use it you will have to install and setup the Delique operating system manually; the instructions to do this are provided with each release. This will not be the case in the near future.
 
 Linux From Scratch Deviations
 ---
