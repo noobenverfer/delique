@@ -14,7 +14,7 @@ Before proceeding, you should obtain the Linux From Scratch books (in particular
 
 The source code is freely available under their respective licenses, and can be built and installed by two means: by downloading the archive of the Delique operating system itself, which at this time still contains the source code in the _/sources_ directory and/or the _/usr/src_ directory and can be built by following the procedures from the corresponding Linux From Scratch books and deviating where instructed (optimal if you only want to build and install a specific program here), _**or**_ download the source code using wget and the /sources/wget-list-systemd file from this repository and build it with the procedures from the corresponding Linux From Scratch books and deviating where instructed (optimal if you want to build the entire Delique operating system from scratch... _but at this point, do you? Ha ha..._). 
 
-There is no installer or bootable .ISO file provided yet, and if you _really_ wish to boot Delique and use it you will have to install and setup the Delique operating system manually; the instructions to do this are provided with each release.
+There is no installer or bootable .ISO file provided yet, and if you _really_ wish to boot Delique and use it you will have to install and setup the Delique operating system manually; the instructions to do this are provided with each release. This will not be the case in the near future.
 
 ---
 
