@@ -16,6 +16,8 @@ The source code is freely available under their respective licenses, and can be 
 
 There is no installer or bootable .ISO file provided yet, and if you _really_ wish to boot Delique and use it you will have to install and setup the Delique operating system manually; the instructions to do this are provided with each release.
 
+---
+
 The deviations from the Linux From Scratch books so far include:
 
   - Delique having its own release file(s), thus it identifies itself as well... Delique.
