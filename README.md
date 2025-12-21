@@ -7,9 +7,12 @@ As a conservative estimate, the Delique operating system should be in a state wh
 
 You are now aware of the state of the Delique operating system.
 
+Datapool Surface
+---
+The Delique operating system is a part of the Delique project as a whole, which is an initiative to design and manufacture a complete set of computer hardware and software based solely on the unique design principles of efficiency, valuable features, and free and open-source software. The Delique project, as it were, is an ELORG-associated project and is otherwise known by its full name, ELORG-Associated Project Codename "Delique"; for more information about ELORG and what this means, you can visit the [official webpage for the Delique project](https://elektronorgtechnica.ct.ws/Project%20Codename%20'Delique'.html) on ELORG's website.
+
 Build and Install
 ---
-
 Before proceeding, you should obtain the Linux From Scratch books (in particular, the LFS systemd and BLFS systemd books which this is based off of) and familiarize yourself with them. They are available at _www.linuxfromscratch.org_ and are completely free and open-source. Much credit goes to these books from which the Delique operating system shall be derived from.
 
 The source code is freely available under their respective licenses, and can be built and installed by two means: by downloading the archive of the Delique operating system itself, which at this time still contains the source code in the _/sources_ directory and/or the _/usr/src_ directory and can be built by following the procedures from the corresponding Linux From Scratch books and deviating where instructed (optimal if you only want to build and install a specific program here), _**or**_ download the source code using wget and the /sources/wget-list-systemd file from this repository and build it with the procedures from the corresponding Linux From Scratch books and deviating where instructed (optimal if you want to build the entire Delique operating system from scratch... _but at this point, do you? Ha ha..._). 
