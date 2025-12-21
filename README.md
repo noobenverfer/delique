@@ -7,8 +7,8 @@ As a conservative estimate, the Delique operating system should be in a state wh
 
 You are now aware of the state of the Delique operating system.
 
+Build and Install
 ---
-**Build and install instructions:**
 
 Before proceeding, you should obtain the Linux From Scratch books (in particular, the LFS systemd and BLFS systemd books which this is based off of) and familiarize yourself with them. They are available at _www.linuxfromscratch.org_ and are completely free and open-source. Much credit goes to these books from which the Delique operating system shall be derived from.
 
@@ -16,6 +16,7 @@ The source code is freely available under their respective licenses, and can be 
 
 There is no installer or bootable .ISO file provided yet, and if you _really_ wish to boot Delique and use it you will have to install and setup the Delique operating system manually; the instructions to do this are provided with each release. This will not be the case in the near future.
 
+Linux From Scratch Deviations
 ---
 Any deviations from the Linux From Scratch books are reflected in this repository.
 
