@@ -1,0 +1,7 @@
+NAME="Delique"
+VERSION="12.4.1-systemd"
+ID=delique
+PRETTY_NAME="Delique 12.4.1"
+VERSION_CODENAME="ELORG"
+HOME_URL="elektronorgtechnica.ct.ws"
+RELEASE_TYPE="stable"

@@ -1,0 +1,4 @@
+DISTRIB_ID="Delique"
+DISTRIB_RELEASE="12.4.1-systemd"
+DISTRIB_CODENAME="ELORG"
+DISTRIB_DESCRIPTION="ELORG-Associated Project Codename Delique"
